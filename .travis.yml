@@ -43,6 +43,6 @@ before_script:
   - mkdir -p ~/.config/awesome
   - echo "require('awful'); tags = {}; tags[1] = awful.tag({'name'})" > ~/.config/awesome/rc.lua
   - "awesome &"
-s
 
-cript: "bundle exec rake travis"
+
+script: "bundle exec rake travis"
